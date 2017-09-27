@@ -190,7 +190,7 @@ void IStepDispatcher::init(errlHndl_t &io_rtaskRetErrl)
     errlHndl_t err = NULL;
 
     printk( "IStepDispatcher entry.\n" );
-    TRACFCOMP( g_trac_initsvc, "IStepDispatcher entry." );
+    TRACFCOMP( g_trac_initsvc, "IStepDispatcher entry. WGH" );
 
     //  Read the and process the Hostboot configuration flags
     BOOTCONFIG::readAndProcessBootConfig();
